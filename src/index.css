@@ -1,0 +1,20 @@
+@import './vendor/normalize.css';
+@import './vendor/font.css';
+
+:root {
+  --red: #EE3465;
+  --green: #3DDC84;
+
+  --bg-main: #202020;
+  --bg-medium: #272727;
+  --bg-light: #303030;
+  --bg-button: #313131;
+
+  --font-white: #fff;
+  --font-grey: #8B8B8B;
+  --font-opacity-50: 0.5;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
