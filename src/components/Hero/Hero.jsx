@@ -1,4 +1,5 @@
 import './hero.css';
+import heroImage from '../../images/svg/hero-image.svg';
 
 import Wrapper from '../Wrapper/Wrapper';
 import React from 'react';
@@ -8,11 +9,11 @@ const Hero = () => {
     <section className='hero'>
       <Wrapper modifier={'hero'}>
         <div className="hero__text-container">
-          <h1 className="hero__title">123</h1>
-          <p className="hero__subtitle">123</p>
+          <h1 className="hero__title">Учебный проект студента факультета Веб-разработки.</h1>
+          <p className="hero__subtitle">Листайте ниже, чтобы узнать больше про этот<br/>проект и его создателя.</p>
           <a href="/" className="hero__link">Узнать больше</a>
         </div>
-        <img src="" alt="" className="hero__image" />
+        <img src={heroImage} alt="" className="hero__image" />
       </Wrapper>
     </section>
   );
