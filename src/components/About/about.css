@@ -9,16 +9,8 @@
   padding: 110px 70px;
 }
 
-.about__title {
-  padding-bottom: 23px;
+.about__undertitle {
   margin-bottom: 70px;
-
-  color: var(--font-white);
-  font-size: 22px;
-  font-weight: 400;
-  letter-spacing: -0.88px;
-
-  border-bottom: 1px solid #DADADA;
 }
 
 .about__description-container {

@@ -1,13 +1,20 @@
-import './about.css'
 
 import React from 'react';
 import Wrapper from '../Wrapper/Wrapper';
+import SectionTitle from '../SectionTitle/SectionTitle';
+
+import './about.css'
 
 const About = () => {
+  const sectionModifire = 'about';
+
   return (
     <section className='about'>
-      <Wrapper modifier={'about'}>
-        <h2 className="about__title">О проекте</h2>
+      <Wrapper modifier={sectionModifire}>
+        <SectionTitle 
+          modifier={sectionModifire}
+          content={'О проекте'}
+        />
         <div className="about__description-container">
           <div className="about__description-item description-item">
             <h3 className="description-item__title">Дипломный проект включал 5 этапов</h3>

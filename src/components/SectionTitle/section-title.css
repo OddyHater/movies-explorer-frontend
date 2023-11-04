@@ -1,0 +1,10 @@
+.section-title {
+  padding-bottom: 23px;
+
+  color: var(--font-white);
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: -0.88px;
+
+  border-bottom: 1px solid #DADADA;
+}
