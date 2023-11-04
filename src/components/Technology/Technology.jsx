@@ -7,6 +7,7 @@ import './technology.css';
 
 const Technology = () => {
   const sectionModifire = 'technology';
+  
   const technologyArray = [
     'HTML',
     'CSS',

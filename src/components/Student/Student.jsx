@@ -3,6 +3,8 @@ import React from 'react';
 import Wrapper from '../Wrapper/Wrapper';
 import SectionTitle from '../SectionTitle/SectionTitle';
 
+import studentImage from '../../images/student-image.png';
+
 import './student.css';
 
 const Student = () => {
@@ -23,8 +25,16 @@ const Student = () => {
               Я родился и живу в Саратове, закончил факультет экономики СГУ. У меня есть жена 
               и дочь. Я люблю слушать музыку, а ещё увлекаюсь бегом. Недавно начал кодить. С 2015 года работал в компании «СКБ Контур». После того, как прошёл курс по веб-разработке, начал заниматься фриланс-заказами и ушёл с постоянной работы.
             </p>
-            <a href="/" className="student__link">Github</a>
+            <a
+              href="https://github.com/OddyHater"
+              className="student__link"
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              Github
+            </a>
           </div>
+          <img src={studentImage} alt="" />
         </div>
       </Wrapper>
     </section>
