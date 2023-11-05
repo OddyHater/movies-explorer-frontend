@@ -8,7 +8,7 @@ import Navigation from '../Navigation/Navigation';
 
 const Header = ({ isOnMain }) => {
   const componentStyle = {
-    'background-color': isOnMain ? "#073042" : "var(--bg-main)"
+    'backgroundColor': isOnMain ? "#073042" : "var(--bg-main)"
   };
 
   return (

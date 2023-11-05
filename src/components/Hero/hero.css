@@ -1,8 +1,7 @@
 .hero {
   display: flex;
   box-sizing: border-box;
-  min-height: 532px;
-  padding: 75px 0 50px 0;
+  min-height: 574px;
 
   background-color: #073042;
 
@@ -13,7 +12,7 @@
   flex: 1;
   display: flex;
   justify-content: space-between;
-  padding: 0 70px;
+  padding: 75px 70px;
 }
 
 .hero__text-container {
@@ -54,6 +53,7 @@
 .hero__image {
   flex: 1;
   display: block;
+  align-self: start;
   max-width: 310px;
 
   aspect-ratio: 310 / 304;

@@ -2,12 +2,19 @@ import React from 'react';
 
 import './navigation.css';
 
+import NavigationList from '../NavigationList/NavigationList';
+
+
 const Navigation = () => {
   return (
-    <div>
-      
-    </div>
+    <nav className="navigation">
+      <NavigationList/>
+    </nav>
   );
 };
 
 export default Navigation;
+
+{/* 
+  
+*/}
