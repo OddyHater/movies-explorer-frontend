@@ -1,9 +1,10 @@
 import React from 'react';
 
 import logButtonImage from '../../images/svg/log-button-image.svg'
+import './navigation-list.css';
 
 const NavigationList = () => {
-  const isAuth = true;
+  const isAuth = false;
 
   return (
    <>
@@ -23,16 +24,14 @@ const NavigationList = () => {
         </button>
       </>
       :
-      <>
-        <ul className="navigation__link-list">
-          <li className="navigation__link-item">
-            <a href="/" className="navigation__link">Регистрация</a>
-          </li>
-          <li className="navigation__link-item">
-            <a href="/" className="navigation__link navigation__link_enter">Войти</a>
-          </li>
-        </ul>
-      </>
+      <ul className="navigation__link-list">
+        <li className="navigation__link-item">
+          <a href="/" className="navigation__link">Регистрация</a>
+        </li>
+        <li className="navigation__link-item">
+          <a href="/" className="navigation__link navigation__link_enter">Войти</a>
+        </li>
+      </ul>
     }
    </>
   );

@@ -1,0 +1,36 @@
+.movies-card {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+
+  background-color: #222;
+  border-radius: 6px;
+}
+
+.movies-card__text-container {
+  display: flex;
+  padding: 18px 18px 0 18px;
+  justify-content: space-between;
+}
+
+.movies-card__name {
+  color: var(--font-white);
+}
+
+.movies-card__duration {
+  color: var(--font-grey);
+}
+
+.movies-card__image {
+  display: block;
+  width: 100%;
+  min-height: 200px;
+}
+
+.movies-card__button {
+
+}
+
+.movies-card__button_active {
+
+}

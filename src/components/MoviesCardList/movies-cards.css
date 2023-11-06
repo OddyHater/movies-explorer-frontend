@@ -1,0 +1,21 @@
+.movies-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 32px 28px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 50px;
+
+  list-style: none;
+}
+
+.movies-cards__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 80px 70px;
+}
+
+.movies-cards__more-button {
+
+}
