@@ -45,6 +45,42 @@ const MoviesCardList = () => {
       thumbnail: CardImage,
       nameRU: 'В погоне за Бенкси'
     },
+    {
+      id: 7,
+      duration: 120,
+      thumbnail: CardImage,
+      nameRU: 'В погоне за Бенкси'
+    },
+    {
+      id: 8,
+      duration: 42,
+      thumbnail: CardImage,
+      nameRU: 'В погоне за Бенкси'
+    },
+    {
+      id: 9,
+      duration: 42,
+      thumbnail: CardImage,
+      nameRU: 'В погоне за Бенкси'
+    },
+    {
+      id: 10,
+      duration: 42,
+      thumbnail: CardImage,
+      nameRU: 'В погоне за Бенкси'
+    },
+    {
+      id: 11,
+      duration: 42,
+      thumbnail: CardImage,
+      nameRU: 'В погоне за Бенкси'
+    },
+    {
+      id: 12,
+      duration: 42,
+      thumbnail: CardImage,
+      nameRU: 'В погоне за Бенкси'
+    },
   ]
 
   return (

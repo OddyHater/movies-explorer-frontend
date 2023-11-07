@@ -7,6 +7,7 @@ const MoviesCard = ({ duration, thumbnail, nameRU }) => {
 
   const handleCardButtonClick = () => {
     setIsSaved(!isSaved);
+    //+api
   }
 
   const calculateDuration = () => {
@@ -32,7 +33,9 @@ const MoviesCard = ({ duration, thumbnail, nameRU }) => {
         className={isSaved ? 'movies-card__button movies-card__button_saved' : 'movies-card__button'}
         type='button'
         onClick={handleCardButtonClick}
-      />
+      >
+        {isSaved ? '✓' : 'Сохранить'}
+      </button>
     </li>
   );
 };

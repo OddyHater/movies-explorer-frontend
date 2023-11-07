@@ -2,14 +2,17 @@
   display: flex;
   flex-direction: column;
   gap: 18px;
+  padding: 18px 0;
 
   background-color: #222;
   border-radius: 6px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.08);
 }
 
 .movies-card__text-container {
   display: flex;
-  padding: 18px 18px 0 18px;
+  padding-left: 18px;
+  margin-bottom: 18px;
   justify-content: space-between;
 }
 
@@ -24,13 +27,28 @@
 .movies-card__image {
   display: block;
   width: 100%;
-  min-height: 200px;
 }
 
 .movies-card__button {
+  align-self: center;
+  margin: 0;
+  padding: 9px 15px;
+  min-width: 100px;
 
+  color: var(--font-white);
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 11px;
+
+  background-color: var(--bg-button);
+  border: 0;
+  border-radius: 30px;
+
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  transition: background-color 0.2s ease-in-out;
 }
 
-.movies-card__button_active {
-
+.movies-card__button_saved {
+  background-color: var(--red);
 }
