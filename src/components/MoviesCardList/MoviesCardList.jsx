@@ -5,7 +5,7 @@ import './movies-cards.css';
 import Wrapper from '../Wrapper/Wrapper';
 import MoviesCard from '../MoviesCard/MoviesCard';
 
-const MoviesCardList = ({ cardsArray }) => {
+const MoviesCardList = ({ cardsArray, isSavedList }) => {
 
   return (
     <Wrapper modifier={'movies-cards'}>
@@ -19,7 +19,9 @@ const MoviesCardList = ({ cardsArray }) => {
           />
         ))}
       </ul>
-      <button type='button' className='movies-cards__more-button'>Ещё</button>
+      {cardsArray.length >= 12 &&
+        <button type='button' className='movies-cards__more-button'>Ещё</button>
+      }
     </Wrapper>
   );
 };

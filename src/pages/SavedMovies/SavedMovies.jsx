@@ -36,7 +36,7 @@ const SavedMovies = () => {
     <div className='saved-movies'>
       <Header isOnMain={false} />
       <SearchForm />
-      <MoviesCardList cardsArray={cardsArray} />
+      <MoviesCardList cardsArray={cardsArray} isSavedList={true} />
       <Footer />
     </div>
   );
