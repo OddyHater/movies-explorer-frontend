@@ -6,6 +6,7 @@ import NotFound from "../../pages/NotFound/NotFound";
 import SavedMovies from "../../pages/SavedMovies/SavedMovies";
 import Profile from "../../pages/Profile/Profile";
 import Register from "../../pages/Register/Register";
+import Login from "../../pages/Login/Login";
 
 import { UserContext } from "../../contexts/UserContext";
 
@@ -22,7 +23,8 @@ function App() {
       {/* <NotFound /> */}
       {/* <SavedMovies /> */}
       {/* <Profile /> */}
-      <Register />
+      {/* <Register /> */}
+      <Login />
     </UserContext.Provider>
   );
 }

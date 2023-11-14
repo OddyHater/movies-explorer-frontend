@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './register.css'
+import logoIcon from '../../images/svg/header-logo.svg'
 
 import Wrapper from '../../components/Wrapper/Wrapper';
 import InputContainer from '../../components/InputContainer/InputContainer';
@@ -11,14 +12,14 @@ const Register = () => {
     <div className='register'>
       <Wrapper modifier={sectionModifier}>
         <div className="register__hero">
-          <img src="/" alt="" className="register__logo" />
+          <img src={logoIcon} alt="" className="register__logo" />
           <h1 className="register__title">Добро пожаловать!</h1>
         </div>
         <form action="#" className='register__form'>
 
           <InputContainer
             modifier={sectionModifier}
-            placeholder={''}
+            placeholder={'Введите имя'}
             inputType={'text'}
             inputName={'name'}
             label={'Имя'}
@@ -26,7 +27,7 @@ const Register = () => {
 
           <InputContainer
             modifier={sectionModifier}
-            placeholder={''}
+            placeholder={'Введите e-mail'}
             inputType={'text'}
             inputName={'email'}
             label={'E-mail'}
@@ -34,7 +35,7 @@ const Register = () => {
 
           <InputContainer
             modifier={sectionModifier}
-            placeholder={''}
+            placeholder={'Введите пароль'}
             inputType={'password'}
             inputName={'password'}
             label={'Пароль'}
@@ -44,7 +45,10 @@ const Register = () => {
             Зарегистрироваться
           </button>
 
-          
+          <div className="register__bottom-container">
+            Уже зарегистрированы?
+            <a href="/" className="register__link">Войти</a>
+          </div>
         </form>
       </Wrapper>
     </div>
