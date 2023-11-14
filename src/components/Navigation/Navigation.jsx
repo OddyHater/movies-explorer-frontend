@@ -4,17 +4,12 @@ import './navigation.css';
 
 import NavigationList from '../NavigationList/NavigationList';
 
-
 const Navigation = () => {
   return (
     <nav className="navigation">
-      <NavigationList/>
+      <NavigationList />
     </nav>
   );
 };
 
 export default Navigation;
-
-{/* 
-  
-*/}

@@ -1,0 +1,31 @@
+.profile-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-form__wrapper {
+  max-width: 410px;
+  box-sizing: border-box;
+  padding: 74px 0 70px 0;
+}
+
+.profile-form__title {
+  text-align: center;
+}
+
+.profile-form__input-container {
+
+}
+
+.profile-form__input {
+
+}
+
+.profile-form__button-container {
+
+}
+
+.profile-form__submit {
+
+}

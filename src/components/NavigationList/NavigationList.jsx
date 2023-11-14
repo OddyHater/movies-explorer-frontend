@@ -1,10 +1,10 @@
 import React from 'react';
 
-import logButtonImage from '../../images/svg/log-button-image.svg'
+import logButtonImage from '../../images/svg/log-button-image.svg';
 import './navigation-list.css';
 
 const NavigationList = () => {
-  const isAuth = false;
+  const isAuth = true;
 
   return (
    <>
