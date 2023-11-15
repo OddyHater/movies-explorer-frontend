@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './navigation-list.css';
 
 import logButtonImage from '../../images/svg/log-button-image.svg';
-import { ROUTE_MOVIES, ROUTE_SAVED_MOVIES } from '../../constant/routes';
+import { ROUTE_MOVIES, ROUTE_SAVED_MOVIES, ROUTE_PROFILE, ROUTE_SIGNIN, ROUTE_SIGNUP } from '../../constant/routes';
 
 const NavigationList = () => {
-  const isAuth = true;
+  const isAuth = false;
 
   return (
    <>
@@ -13,24 +14,24 @@ const NavigationList = () => {
       <>
         <ul className="navigation__link-list navigation__link-list_auth">
           <li className="navigation__link-item navigation__link-item_auth">
-            <a href="/" className="navigation__link navigation__link_auth">Фильмы</a>
+            <Link to={ROUTE_MOVIES} className="navigation__link navigation__link_auth">Фильмы</Link>
           </li>
           <li className="navigation__link-item navigation__link-item_auth">
-            <a href="/" className="navigation__link navigation__link_auth">Сохранённые фильмы</a>
+            <Link to={ROUTE_SAVED_MOVIES} className="navigation__link navigation__link_auth">Сохранённые фильмы</Link>
           </li>
         </ul>
-        <button className='navigation__button'>
+        <Link to={ROUTE_PROFILE} className='navigation__button'>
           Аккаунт
           <img src={logButtonImage} alt="" className="navigation__button-image" />
-        </button>
+        </Link>
       </>
       :
       <ul className="navigation__link-list">
         <li className="navigation__link-item">
-          <a href="/" className="navigation__link">Регистрация</a>
+          <Link to={ROUTE_SIGNUP} className="navigation__link">Регистрация</Link>
         </li>
         <li className="navigation__link-item">
-          <a href="/" className="navigation__link navigation__link_enter">Войти</a>
+          <Link to={ROUTE_SIGNIN} className="navigation__link navigation__link_enter">Войти</Link>
         </li>
       </ul>
     }

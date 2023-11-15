@@ -1,10 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './login.css';
 import logoIcon from '../../images/svg/header-logo.svg'
 
 import Wrapper from '../../components/Wrapper/Wrapper';
 import InputContainer from '../../components/InputContainer/InputContainer';
+
+import { ROUTE_SIGNIN } from '../../constant/routes';
 
 const Login = () => {
   const sectionModifier = 'login'
@@ -40,7 +43,7 @@ const Login = () => {
 
           <div className="login__bottom-container">
             Ещё не зарегистрированы?
-            <a href="/" className="login__link">Регистрация</a>
+            <Link to={ROUTE_SIGNIN} className="login__link">Регистрация</Link>
           </div>
         </form>
       </Wrapper>

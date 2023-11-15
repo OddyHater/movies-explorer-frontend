@@ -1,10 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './register.css'
 import logoIcon from '../../images/svg/header-logo.svg'
 
 import Wrapper from '../../components/Wrapper/Wrapper';
 import InputContainer from '../../components/InputContainer/InputContainer';
+
+import { ROUTE_SIGNUP } from '../../constant/routes';
 
 const Register = () => {
   const sectionModifier = 'register'
@@ -47,7 +50,7 @@ const Register = () => {
 
           <div className="register__bottom-container">
             Уже зарегистрированы?
-            <a href="/" className="register__link">Войти</a>
+            <Link to={ROUTE_SIGNUP} className="register__link">Войти</Link>
           </div>
         </form>
       </Wrapper>
