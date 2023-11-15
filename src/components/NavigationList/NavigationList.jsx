@@ -1,7 +1,8 @@
 import React from 'react';
+import './navigation-list.css';
 
 import logButtonImage from '../../images/svg/log-button-image.svg';
-import './navigation-list.css';
+import { ROUTE_MOVIES, ROUTE_SAVED_MOVIES } from '../../constant/routes';
 
 const NavigationList = () => {
   const isAuth = true;

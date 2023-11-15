@@ -7,6 +7,7 @@ import Wrapper from '../Wrapper/Wrapper';
 import Navigation from '../Navigation/Navigation';
 
 const Header = ({ isOnMain }) => {
+  
   const componentStyle = {
     'backgroundColor': isOnMain ? "#073042" : "var(--bg-main)"
   };
