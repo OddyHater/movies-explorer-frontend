@@ -6,7 +6,11 @@
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  padding: 110px 70px;
+  padding: 110px 70px 104px 70px;
+
+  @media screen and (max-width: 768px) {
+    padding: 90px 50px 84px ;
+  }
 }
 
 .about__undertitle {
@@ -16,8 +20,13 @@
 .about__description-container {
   display: flex;
   justify-content: space-between;
-  gap: 40px;
-  margin-bottom: 100px;
+  gap: 53px;
+  margin-bottom: 110px;
+
+  @media screen and (max-width: 768px) {
+    gap: 30px;
+    margin-bottom: 93px;
+  }
 }
 
 .description-item {
@@ -30,11 +39,22 @@
   font-weight: 400;
   font-size: 20px;
   letter-spacing: -0.8px;
+
+  @media screen and (max-width: 768px) {
+    margin-bottom: 22px;
+
+    font-size: 20px;
+  }
 }
 
 .description-item__subtitle {
   font-size: 14px;
   line-height: 20px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 12px;
+    line-height: 18px;
+  }
 }
 
 
@@ -76,7 +96,12 @@
   grid-row: 2 / 3;
 
   font-weight: 500;
+  line-height: 17px;
   color: var(--font-grey);
+
+  @media screen and (max-width: 768px) {
+    font-weight: 400;
+  }
 }
 
 .timeline__item_front {
@@ -84,7 +109,12 @@
   grid-row: 2 / 3;
 
   font-weight: 500;
+  line-height: 17px;
   color: var(--font-grey);
+
+  @media screen and (max-width: 768px) {
+    font-weight: 400;
+  }
 }
   
 

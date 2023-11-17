@@ -19,7 +19,7 @@ const Portfolio = () => {
               target='_blank'
               rel="noopener noreferrer"
               >
-                Сайт-портфолио
+                Статичный сайт
             </a>
             ↗
           </li>
@@ -30,7 +30,18 @@ const Portfolio = () => {
             target='_blank'
             rel="noopener noreferrer"
             >
-              SPA React
+              Адаптивный сайт
+            </a>
+            ↗
+          </li>
+          <li className="portfolio__list-item">
+            <a
+            href='https://menuuu.io/' 
+            className="portfolio__item-text"
+            target='_blank'
+            rel="noopener noreferrer"
+            >
+              Одностраничное приложение
             </a>
             ↗
           </li>

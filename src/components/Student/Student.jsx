@@ -34,7 +34,7 @@ const Student = () => {
               Github
             </a>
           </div>
-          <img src={studentImage} alt="" />
+          <img src={studentImage} alt="" className='student__image'/>
         </div>
       </Wrapper>
     </section>

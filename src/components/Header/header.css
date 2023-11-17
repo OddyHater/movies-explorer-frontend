@@ -7,6 +7,10 @@
   justify-content: space-between;
   align-items: center;
   padding: 18px 70px;
+
+  @media screen and (max-width: 768px) {
+    padding: 18px 30px;
+  }
 }
 
 .header__logo {

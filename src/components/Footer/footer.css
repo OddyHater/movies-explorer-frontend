@@ -8,13 +8,18 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 79px 70px 20px 70px;
+  padding: 60px 70px 20px 70px;
+
+  @media screen and (max-width: 768px) {
+    padding: 79px 30px 20px 30px;
+  }
 }
 
 .footer__uppertext {
   padding-bottom: 20px;
 
   color: var(--font-grey);
+  font-size: 13px;
   text-align: center;
 
   border-bottom: 1px solid #424242;
