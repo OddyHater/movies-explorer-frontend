@@ -21,7 +21,9 @@
   justify-content: space-between;
   gap: 49px;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 625px) {
+    flex-direction: column-reverse;
+    align-items: center;
   }
 }
 
