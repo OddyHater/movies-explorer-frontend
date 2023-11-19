@@ -67,3 +67,19 @@
   background-color: #0F4157;
   border-radius: 6px;
 }
+
+@media screen and (max-width: 475px) {
+
+  .navigation__link-list {
+    gap: 14px;
+  }
+
+  .navigation__link-item {
+    font-size: 10px;
+    line-height: 16px;
+  }
+
+  .navigation__link_enter {
+    padding: 5px 12px;
+  }
+}

@@ -7,12 +7,22 @@
   justify-content: space-between;
   align-items: center;
   padding: 18px 70px;
-
-  @media screen and (max-width: 768px) {
-    padding: 18px 30px;
-  }
 }
 
 .header__logo {
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+
+  .header__wrapper {
+    padding: 18px 30px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  
+  .header__wrapper {
+    padding: 18px 14px;
+  }
 }
