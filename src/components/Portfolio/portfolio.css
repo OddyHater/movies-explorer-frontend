@@ -4,10 +4,6 @@
 
 .portfolio__wrapper {
   padding: 103px 70px 125px 70px;
-
-  @media screen and (max-width: 768px) {
-    padding: 0 50px 71px 50px;
-  }
 }
 
 .portfolio__title {
@@ -42,12 +38,6 @@
   letter-spacing: -1.2px;
 
   border-bottom: 1px solid #424242;
-
-  @media screen and (max-width: 768px) {
-    font-size: 28px;
-    letter-spacing: -1.12px;
-    line-height: 50px;
-  }
 }
 
 .portfolio__item-text {
@@ -55,3 +45,34 @@
   color: inherit;
 }
 
+@media screen and (max-width: 768px)  {
+
+  .portfolio__wrapper {
+    padding: 0 50px 71px 50px;
+  }
+
+  .portfolio__list-item  {
+    font-size: 28px;
+    letter-spacing: -1.12px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+
+  .portfolio__wrapper {
+    padding: 0 14px 70px 14px;
+  }
+
+  .portfolio__title {
+    margin-bottom: 42px;
+
+    font-size: 14px;
+  }
+
+  .portfolio__list-item {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.72px;
+  }
+}

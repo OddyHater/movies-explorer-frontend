@@ -6,10 +6,6 @@
   padding: 110px 70px 0 70px;
 
   color: var(--font-white);
-
-  @media screen and (max-width: 768px) {
-    padding: 90px 50px;
-  }
 }
 
 .student__undertitle {
@@ -20,11 +16,6 @@
   display: flex;
   justify-content: space-between;
   gap: 49px;
-
-  @media screen and (max-width: 625px) {
-    flex-direction: column-reverse;
-    align-items: center;
-  }
 }
 
 .student__text-container {
@@ -39,13 +30,6 @@
 
   font-size: 50px;
   font-weight: 400;
-
-  @media screen and (max-width: 768px) {
-    margin-bottom: 16px;
-
-    font-size: 40px;
-    line-height: 1;
-  }
 }
 
 .student__subtitle {
@@ -54,32 +38,16 @@
   font-size: 18px;
   font-weight: 500;
   line-height: 20px;
-
-  @media screen and (max-width: 768px) {
-    margin-bottom: 20px;
-
-    font-size: 12px;
-    line-height: 1.5;
-  }
 }
 
 .student__text {
   font-size: 14px;
   line-height: 22px;
-
-  @media screen and (max-width: 768px) {
-    font-size: 12px;
-    line-height: 1.5;
-  }
 }
 
 .student__image {
   display: block;
   width: 270px;
-  
-  @media screen and (max-width: 768px) {
-    width: 255px;
-  }
 }
 
 .student__link {
@@ -91,3 +59,76 @@
   text-decoration: none;
 }
 
+@media screen and (max-width: 768px) {
+
+  .student__wrapper {
+    padding: 90px 50px; 
+  }
+
+  .student__title {
+    margin-bottom: 16px;
+
+    font-size: 40px;
+    line-height: 1;
+  }
+
+  .student__subtitle {
+    margin-bottom: 20px;
+
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .student__text {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .student__image {
+    width: 255px;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  
+  .student__content-wrapper {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .student__text {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+
+  .student__wrapper {
+    padding: 72px 14px 70px 14px;
+  }
+
+  .student__undertitle {
+    margin-bottom: 60px;
+
+    line-height: normal;
+  }
+
+  .student__content-wrapper {
+    gap: 40px;
+  }
+
+  .student__image {
+    width: 100%;
+  }
+
+  .student__title {
+    font-size: 30px;
+    line-height: normal;
+    letter-spacing: -1.2px;
+  }
+
+  .student__text {
+    font-size: 11px;
+    line-height: 16px;
+  }
+}
