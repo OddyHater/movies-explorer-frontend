@@ -17,7 +17,7 @@
 }
 
 .profile-form__title {
-  margin-bottom: 123px;
+  margin-bottom: 104px;
 
   font-size: 24px;
   font-weight: 500;
@@ -33,6 +33,8 @@
   padding: 16px 0;
 
   color: var(--font-white);
+  font-size: 11px;
+  line-height: normal;
 }
 
 .profile-form__input {
@@ -40,6 +42,7 @@
   flex: 1;
 
   text-align: right;
+  font-size: 11px;
   color: inherit;
 
   background-color: transparent;
@@ -78,4 +81,36 @@
 .profile-form__button_exit {
   color: var(--red);
   font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+
+  .profile-form__wrapper {
+    padding-top: 236px;
+    padding-bottom: 269px;
+  }
+
+  .profile-form__title {
+    margin-bottom: 77px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .profile-form__wrapper {
+    padding-top: 70px;
+    padding-bottom: 40px;
+    max-width: 260px;
+  }
+
+  .profile-form {
+    min-width: 260px;
+  }
+
+  .profile-form__title {
+    margin-bottom: 62px;
+  }
+
+  .profile-form__button {
+    font-size: 12px;
+  }
 }

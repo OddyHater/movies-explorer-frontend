@@ -29,18 +29,18 @@ const Movies = () => {
       thumbnail: CardImage,
       nameRU: 'В погоне за Бенкси'
     },
-    {
-      id: 4,
-      duration: 42,
-      thumbnail: CardImage,
-      nameRU: 'В погоне за Бенкси'
-    },
-    {
-      id: 5,
-      duration: 42,
-      thumbnail: CardImage,
-      nameRU: 'В погоне за Бенкси'
-    },
+    // {
+    //   id: 4,
+    //   duration: 42,
+    //   thumbnail: CardImage,
+    //   nameRU: 'В погоне за Бенкси'
+    // },
+    // {
+    //   id: 5,
+    //   duration: 42,
+    //   thumbnail: CardImage,
+    //   nameRU: 'В погоне за Бенкси'
+    // },
     // {
     //   id: 6,
     //   duration: 42,

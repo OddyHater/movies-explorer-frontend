@@ -8,6 +8,7 @@
 
 .login__wrapper { 
   display: flex;
+  box-sizing: border-box;
   flex-direction: column;
   min-width: 396px;
   padding: 70px 0;
@@ -89,4 +90,41 @@
 .login__link {
   text-decoration: none;
   color: var(--blue);
+}
+
+@media screen and (max-width: 768px) {
+  .login__wrapper {
+    padding: 232px 0;
+  }
+}
+
+@media screen and (max-width: 475px) {
+
+  .login__wrapper {
+    min-width: 100%;
+    padding: 56px 30px 30px 30px;
+    align-items: center;
+  }
+
+  .login__hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .login__logo { 
+    margin-bottom: 50px;
+  }
+
+  .login__title {
+    margin-bottom: 82px;
+  }
+
+  .login__form {
+    width: 100%;
+  }
+
+  .login__bottom-container {
+    font-size: 12px;
+  }
 }
