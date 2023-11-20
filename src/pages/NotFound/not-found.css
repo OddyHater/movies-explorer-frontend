@@ -31,7 +31,38 @@
 }
 
 .not-found__link {
+  margin-top: auto;
+
   color: var(--blue);
   text-decoration: none;
   font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .not-found {
+    padding-top: 408px;
+    padding-bottom: 222px;
+    justify-content: start;
+  }
+
+  .not-found__content-wrapper {
+    flex: 0;
+    gap: 13px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+
+  .not-found {
+    padding-top: 332px;
+    padding-bottom: 30px;
+  }
+
+  .not-found__title {
+    font-size: 80px;
+  }
+
+  .not-found__text {
+    font-size: 12px;
+  }
 }
