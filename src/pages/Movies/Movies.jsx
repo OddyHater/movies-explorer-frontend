@@ -59,30 +59,30 @@ const Movies = () => {
       thumbnail: CardImage,
       nameRU: 'В погоне за Бенкси'
     },
-    {
-      id: 9,
-      duration: 42,
-      thumbnail: CardImage,
-      nameRU: 'В погоне за Бенкси'
-    },
-    {
-      id: 10,
-      duration: 42,
-      thumbnail: CardImage,
-      nameRU: 'В погоне за Бенкси'
-    },
-    {
-      id: 11,
-      duration: 42,
-      thumbnail: CardImage,
-      nameRU: 'В погоне за Бенкси'
-    },
-    {
-      id: 12,
-      duration: 42,
-      thumbnail: CardImage,
-      nameRU: 'В погоне за Бенкси'
-    },
+    // {
+    //   id: 9,
+    //   duration: 42,
+    //   thumbnail: CardImage,
+    //   nameRU: 'В погоне за Бенкси'
+    // },
+    // {
+    //   id: 10,
+    //   duration: 42,
+    //   thumbnail: CardImage,
+    //   nameRU: 'В погоне за Бенкси'
+    // },
+    // {
+    //   id: 11,
+    //   duration: 42,
+    //   thumbnail: CardImage,
+    //   nameRU: 'В погоне за Бенкси'
+    // },
+    // {
+    //   id: 12,
+    //   duration: 42,
+    //   thumbnail: CardImage,
+    //   nameRU: 'В погоне за Бенкси'
+    // },
   ];
 
   return (

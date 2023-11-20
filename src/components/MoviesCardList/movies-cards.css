@@ -11,8 +11,8 @@
 .movies-cards__wrapper {
   display: flex;
   flex-direction: column;
-  gap: 50px;
-  padding: 80px 70px;
+  gap: 58px;
+  padding: 80px 70px 102px 70px;
 }
 
 .movies-cards__more-button {
@@ -30,4 +30,17 @@
 
   cursor: pointer;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 768px) {
+
+  .movies-cards {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 35px 24px;
+  }
+
+  .movies-cards__wrapper {
+    padding: 86px 30px 82px 30px;
+    gap: 80px;
+  }
 }

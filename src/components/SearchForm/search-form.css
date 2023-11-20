@@ -3,11 +3,11 @@
 }
 
 .search-form__wrapper {
-  padding: 70px 70px 0 70px;
+  padding: 65px 70px 0 70px;
 }
 
 .search-form__form {
-
+  
 }
 
 .form {
@@ -35,8 +35,10 @@
 
 .form__submit-button {
   padding: 17px 20px;
+  min-width: 100px;
 
   font-size: 14px;
+  line-height: 18px;
   font-weight: 500;
   color: var(--font-white);
   font-family: inherit;
@@ -46,4 +48,11 @@
   border-radius: 5px;
 
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+
+  .search-form__wrapper {
+    padding: 65px 30px 0 30px;
+  }
 }

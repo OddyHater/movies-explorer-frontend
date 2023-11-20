@@ -19,7 +19,7 @@ const MoviesCardList = ({ cardsArray, isSavedList }) => {
           />
         ))}
       </ul>
-      {cardsArray.length >= 12 &&
+      {cardsArray.length >= 6 &&
         <button type='button' className='movies-cards__more-button'>Ещё</button>
       }
     </Wrapper>

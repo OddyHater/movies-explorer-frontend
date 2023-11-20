@@ -3,7 +3,7 @@
 
   display: block;
   width: 36px;
-  height: 20px;
+  height: 20px;  
 
   border-radius: 100px;
   background-color: #EBEBEB;
@@ -38,14 +38,13 @@
 
 .filter-checkbox__container {
   display: flex;
+  padding-bottom: 43px;
   gap: 14px;
 
   border-bottom: 1px solid rgba(170, 170, 170, 0.2);
 }
 
 .filter-checkbox__text {
-  padding-bottom: 43px;
-
   color: var(--font-white);
   font-size: 13px;
   line-height: 18px;
