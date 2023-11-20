@@ -60,3 +60,24 @@
     font-weight: 500;
   }
 }
+
+@media screen and (max-width: 475px) {
+  .movies-card {
+    gap: 16px;
+    padding: 14px 0;
+  }
+
+  .movies-card__text-container {
+    padding: 0 14px;
+  }
+
+  .movies-card__name {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .movies-card__duration {
+    font-size: 10px;
+    line-height: 18px;
+  }
+}

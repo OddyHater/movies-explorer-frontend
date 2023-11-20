@@ -24,7 +24,7 @@ import { UserContext } from "../../contexts/UserContext";
 const user = {
   name: 'Виталий',
   email: 'pochta@yandex.ru',
-  isAuth: true
+  isAuth: false
 };
 
 function App() {

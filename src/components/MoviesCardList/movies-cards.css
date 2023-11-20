@@ -44,3 +44,14 @@
     gap: 80px;
   }
 }
+
+@media screen and (max-width: 475px) {
+  .movies-cards {
+    grid-template-columns: 1fr;
+    grid-gap: 14px;
+  }
+
+  .movies-cards__wrapper {
+    padding: 15px 10px 102px 10px;
+  }
+}
