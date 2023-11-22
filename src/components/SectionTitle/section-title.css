@@ -1,0 +1,19 @@
+.section-title {
+  padding-bottom: 23px;
+
+  color: var(--font-white);
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: -0.88px;
+
+  border-bottom: 1px solid #DADADA;
+}
+
+@media screen and (max-width: 475px) {
+  .section-title {
+    padding-bottom: 28px;
+
+    font-size: 18px;
+    letter-spacing: -0.72px;
+  }
+}

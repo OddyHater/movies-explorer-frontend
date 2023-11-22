@@ -4,6 +4,7 @@
 :root {
   --red: #EE3465;
   --green: #3DDC84;
+  --blue: #4285F4;
 
   --bg-main: #202020;
   --bg-medium: #272727;
@@ -12,6 +13,7 @@
 
   --font-white: #fff;
   --font-grey: #8B8B8B;
+  --font-black: #000000;
   --font-opacity-50: 0.5;
 }
 

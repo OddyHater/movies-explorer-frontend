@@ -1,0 +1,130 @@
+.register {
+  display: flex;
+  min-height: 100vh;
+  box-sizing: border-box;
+
+  background-color: var(--bg-main);
+}
+
+.register__wrapper { 
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  min-width: 396px;
+  padding: 70px 0;
+}
+
+.register__logo {
+  display: block;
+  width: 38px;
+  height: 38px;
+  margin-bottom: 40px;
+}
+
+.register__title {
+  margin-bottom: 40px;
+
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--font-white);
+}
+
+.register__form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.register__input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  font-size: 10px;
+  color: var(--font-grey);
+}
+
+.register__input {
+  padding: 0;
+  padding-bottom: 10px;
+  margin-bottom: 24px;
+
+  color: var(--font-white);
+  font-size: 14px;
+
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid #424242;
+}
+
+.register__input:focus {
+  outline: 0;
+}
+
+.register__submit {
+  margin-top: auto;
+  margin-bottom: 16px;
+  padding: 13px 0 15px 0;
+
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--font-white);
+  
+  background-color: var(--blue);
+  border: 0;
+  border-radius: 3px;
+}
+
+.register__bottom-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+
+  font-size: 14px;
+  color: var(--font-grey);
+}
+
+.register__link {
+  text-decoration: none;
+  color: var(--blue);
+}
+
+@media screen and (max-width: 768px) {
+  .register__wrapper {
+    padding: 232px 0;
+  }
+}
+
+@media screen and (max-width: 475px) {
+
+  .register__wrapper {
+    min-width: 100%;
+    padding: 56px 30px 30px 30px;
+    align-items: center;
+  }
+
+  .register__hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .register__logo { 
+    margin-bottom: 50px;
+  }
+
+  .register__title {
+    margin-bottom: 82px;
+  }
+
+  .register__form {
+    width: 100%;
+  }
+
+  .register__bottom-container {
+    font-size: 12px;
+  }
+}
